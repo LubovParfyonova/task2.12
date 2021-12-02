@@ -6,6 +6,7 @@ body{
     font-size: 17px;
     color: #926239;
     text-align: center;
+    line-height: 1.6;
 }
 header{
     padding-top: 40vh;
@@ -16,8 +17,8 @@ header{
 
     white-space: nowrap;
     overflow: hidden;
-    background-position: cover;
-
+    background-position: center;
+    background-size: cover;
 }
 h1{
     font-size: 50px;
@@ -36,12 +37,13 @@ a{
     border: 1px solid #926239;
     border-radius: 3px;
 }
-.content1{
+.content{
+    padding: 15px 0;
+}
+.content-brown{
+    padding: 15px 0;
     background-color: #926239;
     color: white;
-}
-.content2{
-
 }
 .wrapper{
     width: 100vw;
@@ -50,8 +52,9 @@ a{
     text-align: left;
     display: inline-block;
     width: 32vw;
-    height: 30vh;
+    max-height: 30vh;
     margin: 0 auto;
+    padding-top: 5px;
 }
 .brown{
     color: white;
