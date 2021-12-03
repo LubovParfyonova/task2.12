@@ -11,14 +11,16 @@ body{
 header{
     padding-top: 40vh;
     text-align: center;
+
     background-image: url(./img/beachshowcase.jpg);
+    background-position: center;
+    background-size: cover;
     width: 100vw;
     height: 100vh;
 
-    white-space: nowrap;
-    overflow: hidden;
-    background-position: center;
-    background-size: cover;
+ /*    object-fit: cover; */
+
+
 }
 h1{
     font-size: 50px;
