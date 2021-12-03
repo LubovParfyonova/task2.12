@@ -1,6 +1,7 @@
 *{
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;    
+    overflow-x: hidden;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -17,7 +18,7 @@ header{
     background-size: cover;
     background-position: center;
     
-    /* overflow: hidden; */
+    overflow: hidden;
     width: 100vw;
     height: 100vh;
 
@@ -43,10 +44,10 @@ a{
     border-radius: 3px;
 }
 .content{
-    padding: 15px 0;
+    padding: 15px 10px;
 }
 .content-brown{
-    padding: 15px 0;
+    padding: 15px 10px;
     background-color: #926239;
     color: white;
 }
@@ -56,12 +57,13 @@ a{
 .article-inline{
     text-align: left;
     display: inline-block;
-    width: 32vw;
+    width: 33vw;
     max-height: 30vh;
     margin: 0 auto;
-    padding-top: 5px;
+    padding: 10px 8px 15px;
 }
 .brown{
+    width: 33vw;
     color: white;
     background-color: #926239;
 }
