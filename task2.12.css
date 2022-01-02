@@ -66,3 +66,40 @@ a{
     color: white;
     background-color: #926239;
 }
+/* @media screen and (max-width: 1200px) and (min-width: 900px){
+    header{
+        padding-top: 20vh;
+    }
+    .wrapper{
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .article-inline{
+        width: 100%;
+        padding: 5px;
+    }
+} */
+@media screen and (max-width: 576px){
+    body{
+        font-size: 0.8em;
+    }
+    header{
+        padding-top: 20vh;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+    .underheader{
+        font-size: 0.9em;
+    }
+    .wrapper{
+        display: inline-flex;
+        flex-direction: column;
+        
+    }
+    .article-inline{
+        width: 100%;
+        text-align: center;
+    }
+}
